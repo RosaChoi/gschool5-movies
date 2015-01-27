@@ -1,0 +1,5 @@
+<h1 class="page-header">g5 Movies</h1>
+
+<% @api_movies.each do |movie| %>
+  <img src=<%= movie["image_url"] %> style="width:200px; height:300px; padding:10px;">
+<% end %>

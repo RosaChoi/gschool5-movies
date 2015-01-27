@@ -45,3 +45,4 @@ end
 
 gem "rest-client"
 gem "nokogiri"
+gem 'bootstrap-sass'
